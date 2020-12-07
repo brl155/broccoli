@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form表單</title>
+<link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <form action="">
+<center><h1>一 設計思考工作營報名 一</h1></center>
+<h4>活動目的</h4>
+
+<h4>透過體驗設計思考方法，培養創意發想與能力並實際學習與操作設計思考之方法。</h4>
+<hr>
+<h4>基本資料</h4>
+
+<label for="name">姓名</label>
+<input type="text" placeholder="請輸入姓名" id="name" autofocus required/>
+<br />
+<label for="email">電子信箱</label>
+<input type="email" placeholder="請輸入電子信箱" id="email"  required/>
+<br />
+<label for="tel">行動電話</label>
+<input type="tel" maxlength="10" minlength="10" placeholder="請輸入手機號碼" id="tel"  required/>
+<br />
+<label for="signup">報名場次</label>
+<select name="signup" id="signup">
+    <option value="第一場">第一場：2020/10/06 上午9：00</option>
+</select>
+<br />
+<label>餐點選擇</label>
+<label><input type="radio" name="餐點選擇" id="葷食" value="葷食">葷食</label>
+<label><input type="radio" name="餐點選擇" id="素食" value="素食">素食</label>
+<br />
+<h4>感興趣的領域</h4>
+<input type="checkbox" name="互動設計" id="互動設計" value="互動設計">互動設計
+<input type="checkbox" name="平面設計" id="平面設計" value="平面設計">平面設計
+<input type="checkbox" name="室內設計" id="室內設計" value="室內設計">室內設計
+<input type="checkbox" name="雕塑" id="雕塑" value="雕塑">雕塑
+<input type="checkbox" name="繪本" id="繪本" value="繪本計">繪本
+<input type="checkbox" name="攝影" id="攝影" value="攝影">攝影
+<br />
+<h4>特殊需求&活動建議</h4>
+<textarea   cols="71px" rows="5px"></textarea>
+<br />
+<input type="submit" value="送出">
+<input type="reset" value="重新設定">
+
+   
+    
+
+
+</form>
+</body>
+</html>
